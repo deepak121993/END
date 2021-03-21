@@ -1,4 +1,4 @@
-# END Program Session 14 - Capstone Project - Build English to Python Convertor
+# END - Capstone Project - Build Pyton Code Generator from English Sentence
 
 
 ## Python Embeddings
@@ -51,7 +51,7 @@
 
 ## Conclusion
 
-The model performed reasonably well in terms of 
+The model is learning. But some postprocessing required to get the desired output.
 
 - identifying when to write a function and when to write a script based on the question. It looks for the word ***write a function*** to <u>write a function</u> and ***write a code*** to <u>write a script</u>.
 - The usage of semicolon and tabs.
@@ -61,4 +61,5 @@ But Logically the output function isn't accurate and can be improved by :
 - Bigger  training set .Better loss function.
 - Using improved Python keyword embeddings trained on larger corpus and more number of epochs.
 
-## Thanks Rohan and Team, Although not able to complete this properly,Trying to grasp new concepts of transformers.Looking forward to END Phase 2.
+### Thanks to Rohan and Zoheb for this awesome course. Although not able to complete this project properly.Trying to grasp new concepts of transformers and deep learning NLP.
+### Looking forward to END Phase 2.
